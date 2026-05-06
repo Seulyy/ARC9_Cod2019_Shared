@@ -601,6 +601,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 ATT.RTCollimator = true
 
@@ -656,6 +658,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 ATT.RTCollimator = true
 
@@ -762,6 +766,9 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+-- ATT.RTScopeReticleScale = 0.5 -- reticle scale
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 ATT.RTCollimator = true
 
@@ -991,6 +998,7 @@ ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
@@ -1048,6 +1056,7 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 --ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
@@ -1122,6 +1131,7 @@ ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 --ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
@@ -1202,6 +1212,7 @@ ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoBlur = true
+ATT.RTScopeNew_ReticleBlackBox = true
 
 --ATT.ScopeScreenRatio = 525/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
@@ -1300,6 +1311,7 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 --ATT.ScopeScreenRatio = 525/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
@@ -1400,6 +1412,7 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.ScopeScreenRatio = 525/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default_nvg.png", "mips smooth")
@@ -1533,6 +1546,7 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
 
 if !warzonestats then -- Regular Stats
     ATT.AimDownSightsTimeAdd = 0.11
@@ -1604,6 +1618,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 --ATT.ScopeScreenRatio = 600/1080
 
@@ -1677,6 +1693,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 --ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
@@ -1751,6 +1769,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 --ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default.png", "mips smooth")
@@ -1864,6 +1884,8 @@ ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 --ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default2.png", "mips smooth")
@@ -1967,6 +1989,8 @@ ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -2057,6 +2081,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 -- ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_bravo4.png")
 
@@ -2117,6 +2143,8 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
 
 if !warzonestats then -- Regular Stats
     ATT.AimDownSightsTimeAdd = 0.08
