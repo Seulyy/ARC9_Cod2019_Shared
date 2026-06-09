@@ -1831,12 +1831,12 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_mag"}
-ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 local bulletbones = {
-    [3] = "j_bullet3",
+    [3] = "j_bullet1",
     [2] = "j_bullet2",
-    [1] = "j_bullet1"
+    [1] = "j_bullet3"
 }
 
 local v0 = Vector(0, 0, 0)
