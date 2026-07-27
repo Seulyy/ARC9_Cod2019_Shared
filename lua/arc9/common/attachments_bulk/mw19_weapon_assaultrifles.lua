@@ -4308,6 +4308,8 @@ ATT.AutoStats = true
 
 ATT.Free = false
 
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_ar_762n.mdl"
+
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_xmags_akilo47.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_xmags_akilo47.mdl"
 ATT.BoneMerge = true
