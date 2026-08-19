@@ -2297,7 +2297,7 @@ ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_barrel_long.png", 
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_barrel_long.mdl"
-ATT.BoneMerge = false
+ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_scar_barrel"
