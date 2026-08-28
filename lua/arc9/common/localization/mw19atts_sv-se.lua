@@ -1875,6 +1875,11 @@ L["cod2019_kar98k_barrel_long.printname"] = "Singuard Custom 701 mm"
 L["cod2019_kar98k_barrel_long.compactname"] = "701 mm"
 L["cod2019_kar98k_barrel_long.description"] = "Anpassad 701 mm tung pipa med polygonell räffling ökar mynningshastigheten till det högsta. Tillagd vikt hindrar rörlighet."
 
+/////////////// Underbarrel
+L["cod2019_kar98k_grip_monopod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Skjutstöd"
+L["cod2019_kar98k_grip_monopod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Skjutstöd"
+L["cod2019_kar98k_grip_monopod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
+
 /////////////// Stocks
 L["cod2019_kar98k_stock_tactical.printname"] = "STVOL Precision Axelstöd"
 L["cod2019_kar98k_stock_tactical.compactname"] = "Precision"

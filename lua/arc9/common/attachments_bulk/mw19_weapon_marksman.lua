@@ -861,6 +861,52 @@ ARC9.LoadAttachment(ATT, "cod2019_kar98k_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Bipod"
+ATT.CompactName = "Bipod"
+ATT.Description = "Stability legs to improve control while using the weapon from the ground."
+ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_monopod.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_kar98k_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_bipod.mdl"
+ATT.BoneMerge = true
+
+ATT.Bipod = true
+ATT.BipodPos = Vector(-1.5, -4, 1)
+
+ATT.Element = {
+    AttPosMods = {
+        [6] = { -- Underbarrel
+            Pos = Vector(20.3, 0, 0.88),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.08
+	ATT.SprintToFireTimeMult = 1.08
+	ATT.RecoilMult = 0.9
+else -- Warzone Stats
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+	if swep:GetBipod() then
+		model:SetBodygroup(0,1)
+	else 
+		model:SetBodygroup(0,0)
+	end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_kar98k_grip_monopod")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "STVOL Precision Comb"
 ATT.CompactName = "Precision"
 ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]

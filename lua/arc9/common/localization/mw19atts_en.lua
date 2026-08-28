@@ -2489,6 +2489,11 @@ L["cod2019_kar98k_barrel_long.printname"] = "Singuard Custom 27.6\""
 L["cod2019_kar98k_barrel_long.compactname"] = "27.6\""
 L["cod2019_kar98k_barrel_long.description"] = "Custom 27.6\" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility."
 
+/////////////// Underbarrel
+L["cod2019_kar98k_grip_monopod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_kar98k_grip_monopod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_kar98k_grip_monopod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
+
 /////////////// Stocks
 L["cod2019_kar98k_stock_tactical.printname"] = "STVOL Precision Comb"
 L["cod2019_kar98k_stock_tactical.compactname"] = "Precision"

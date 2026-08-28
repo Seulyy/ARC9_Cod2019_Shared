@@ -1916,6 +1916,11 @@ L["cod2019_mk2_stock_tactical.description"] = "Heavy duty comb add-on provides e
 L["cod2019_mk2_stock_light.printname"] = "MK2 Ultralight Hollow"
 
 //////////////////// Kar98k
+/////////////// Optics
+L["cod2019_kar98k_scop.printname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.printname") or "Sniper Scope"
+L["cod2019_kar98k_scop.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.compactname") or "Sniper"
+L["cod2019_kar98k_scop.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
+
 /////////////// Barrels
 L["cod2019_kar98k_barrel_medium.printname"] = "Singuard Custom 25.1\""
 L["cod2019_kar98k_barrel_medium.compactname"] = "25.1\""
@@ -1928,6 +1933,11 @@ L["cod2019_kar98k_barrel_short.description"] = "Custom 21.2\" heavyweight barrel
 L["cod2019_kar98k_barrel_long.printname"] = "Singuard Custom 27.6\""
 L["cod2019_kar98k_barrel_long.compactname"] = "27.6\""
 L["cod2019_kar98k_barrel_long.description"] = "Custom 27.6\" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility."
+
+/////////////// Underbarrel
+L["cod2019_kar98k_grip_monopod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_kar98k_grip_monopod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_kar98k_grip_monopod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
 
 /////////////// Stocks
 L["cod2019_kar98k_stock_tactical.printname"] = "STVOL Precision Comb"
