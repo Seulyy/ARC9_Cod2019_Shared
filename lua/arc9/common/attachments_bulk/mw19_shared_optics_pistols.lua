@@ -422,7 +422,7 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 1.15
-ATT.ScopeScreenRatio = 225/1080
+ATT.ScopeScreenRatio = 550/1080 --225
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
@@ -477,7 +477,7 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 1.15
-ATT.ScopeScreenRatio = 225/1080
+ATT.ScopeScreenRatio = 550/1080 --225
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
@@ -785,12 +785,14 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 2.5
-ATT.ScopeScreenRatio = 325/1080
+ATT.ScopeScreenRatio = 525/1080 --325
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/vlk_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 1.2
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.8 -- shadows scale, make it be slightly visible on edges
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
 
@@ -842,12 +844,14 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeMagnification = 2.75
-ATT.ScopeScreenRatio = 325/1080
+ATT.ScopeScreenRatio = 525/1080 --325
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 1.3
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.8 -- shadows scale, make it be slightly visible on edges
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
@@ -899,12 +903,13 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeMagnification = 3
-ATT.ScopeScreenRatio = 350/1080
+ATT.ScopeScreenRatio = 525/1080 --350
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 1.3
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+ATT.RTScopeNew_ShadowScale = 0.95 -- shadows scale, make it be slightly visible on edges
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 

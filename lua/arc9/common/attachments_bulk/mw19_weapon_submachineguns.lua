@@ -1100,10 +1100,6 @@ ATT.CompactName = [[2.8x Optic]]
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_lmgrail.png", "mips smooth")
 ATT.Description = [[Built in scope with 2.8x magnification provides superior target acquisition.]]
 
-ATT.CustomPros = {
-    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "2.8x"
-}
-
 ATT.SortOrder = 4
 ATT.Free = false
 --ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
@@ -1134,6 +1130,10 @@ ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "2.8x"
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.08

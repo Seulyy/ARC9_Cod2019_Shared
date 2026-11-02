@@ -1132,6 +1132,7 @@ ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_ShadowScale = 0.7 -- shadows scale, make it be slightly visible on edges
 
 --ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
@@ -1619,7 +1620,7 @@ ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNew_ReticleBlackBox = true
-ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
+ATT.RTScopeNew_ShadowScale = 0.675 -- shadows scale, make it be slightly visible on edges
 
 --ATT.ScopeScreenRatio = 600/1080
 
@@ -1990,7 +1991,7 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
 ATT.RTScopeNew_ReticleBlackBox = true
-ATT.RTScopeNew_ShadowScale = 0.65 -- shadows scale, make it be slightly visible on edges
+ATT.RTScopeNew_ShadowScale = 0.85 -- shadows scale, make it be slightly visible on edges
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
